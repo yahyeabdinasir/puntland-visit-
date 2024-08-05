@@ -1,0 +1,183 @@
+body{
+    font-weight: normal;
+    margin : 0;
+}
+
+.first {
+    font-size:  1.750rem;
+    color: #66bfbf;
+    margin: 0 ;
+    margin-top: 10px ;
+    text-align: center;
+    font-family: 'lucida console' 
+}
+
+
+
+
+
+
+.labo{
+    line-height: 1;
+    font-size:  1rem ;
+    margin: 0px ;
+    margin-top: 10px ;
+    font-stretch: normal;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.m{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 299px;
+    margin-top: 30px ;
+    margin-left: 40px;
+    
+}
+.n{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 299px;
+   position: relative;
+  left: 148px;
+  margin-top: 30px;
+}
+.o{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 299px;
+   position: absolute ;
+   left: 920px;
+   margin-top: 30px ; 
+   
+}
+img{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+span .x{
+    display: inline-block;
+}
+div.m:hover {
+    border: 1px solid #fff
+}
+div.n:hover {
+    border: 1px solid #fff
+} 
+div.o:hover {
+    border: 1px solid  #fff ;
+}
+
+.secound{
+    font-size: 1.752rem;
+   font-family: 'lucida console' ;
+   color: #66bfbf;
+    text-align: center;
+margin-top: 25px;
+margin-bottom: 15px;
+
+}
+
+
+
+
+.horisental{
+
+
+    margin-top: 30px;
+    border-width:6px;
+    width: 200px;
+    border-style : none ;
+    border-top-style:  dotted ;
+    border-color: grey ;
+    border-right: 10px;
+    }
+ .sadex{
+    padding: 0;
+   
+ }
+footer{
+    background-color: black;
+    margin-bottom: 40px;
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   margin-top: 20px;
+   height: 158px;
+}
+.socialicon{
+   display: flex;
+    justify-content: center;
+}
+.socialicon a {
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.socialicon a i {
+font: sizze 1.6erm;
+opacity: 0.9;
+color: black;
+}
+.socialicon a:hover{
+    color: #fff;
+    transition: 0.5s;
+}
+.footerNav{
+margin: 20px 0px ;
+
+}
+.footerNav ul { 
+display: flex;
+justify-content: center;
+list-style-type: none;
+}
+.footerNav ul li a {
+    color: white;
+    margin: 20px ;
+    text-decoration: none;
+   opacity: 0.7;
+   font-size: 1.5rem;
+   transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerbottom{
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+}
+.footerbottom{
+    color: #fff;
+}
+.desinger{
+    padding: 0;
+    margin: 0;
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media(max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul{
+
+       width: 100%;
+       text-align: center;
+       margin: 10px;
+    } 
+}
